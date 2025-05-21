@@ -10,7 +10,7 @@ Mersenne Primes are prime numbers that can be written in the form 2^p -1, where 
 Example:
   - p = 3, 2^3 - 1 = 7, 7 is a prime, so 7 is a mersenne prime.
 
-Since every perfect number can be written as 2^(p1) * (2^p - 1) when both p and 2^p - 1, using the concept of mersenne primes can drastically speed up the process of finding perfect numbers.
+Every perfect number can be written as 2^(p1) * (2^p - 1) when both p and 2^p - 1 are prime numbers. Therefore using the concept of mersenne primes can drastically speed up the process of finding perfect numbers.
 
 Goal of this exercise was to determine whether a given Number is a perfect number, identifying Mersenne primes in a given range and use Mersenne primes to generate a list of perfect numbers up to a given limit.
 
